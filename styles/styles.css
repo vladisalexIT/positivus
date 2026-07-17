@@ -1718,11 +1718,6 @@ h4, .h4 {
 .reviews__slider-list::-webkit-scrollbar {
   display: none;
 }
-@media (min-width: 1024px) {
-  .reviews__slider-list {
-    margin-left: calc(var(--reviewsSliderSlideWidth) / 2 * -1);
-  }
-}
 @media (max-width: 1023px) {
   .reviews__slider-list {
     -webkit-column-gap: 30px;
@@ -1732,7 +1727,7 @@ h4, .h4 {
 }
 .reviews__slider-item {
   min-width: var(--reviewsSliderSlideWidth);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 .reviews__actions {
   display: -webkit-box;

@@ -32,9 +32,9 @@
         display: none;
       }
 
-      @include tablet-above {
-        margin-left: calc((var(--reviewsSliderSlideWidth) / 2) * -1);
-      }
+      // @include tablet-above {
+      //   margin-left: calc((var(--reviewsSliderSlideWidth) / 2) * -1);
+      // }
 
       @include tablet {
         column-gap: 30px;
@@ -43,7 +43,7 @@
 
     &-item {
       min-width: var(--reviewsSliderSlideWidth);
-      scroll-snap-align: start;
+      scroll-snap-align: center;
     }
   }
 
