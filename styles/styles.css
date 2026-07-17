@@ -1696,6 +1696,16 @@ h4, .h4 {
     row-gap: 46px;
   }
 }
+@media (max-width: 767px) {
+  .reviews {
+    padding-inline: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .reviews {
+    padding-inline: 2px;
+  }
+}
 .reviews__slider {
   --reviewsSliderSlideWidth: 606px;
 }
@@ -1884,6 +1894,16 @@ h4, .h4 {
   .contact-us__request-types {
     padding: 40px 52px 36px;
     border-radius: var(--border-radius-large) var(--border-radius-large) 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .contact-us__request-types {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 1024px) {

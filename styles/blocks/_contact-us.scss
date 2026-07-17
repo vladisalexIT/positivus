@@ -43,6 +43,12 @@
         padding: 40px 52px 36px;
         border-radius: var(--border-radius-large) var(--border-radius-large) 0 0;
     }
+
+    @include mobile-s {
+      flex-direction: column;
+      row-gap: 10px;
+      padding-bottom: 30px;
+    }
   }
 
   &__form {

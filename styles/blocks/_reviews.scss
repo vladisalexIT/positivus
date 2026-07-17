@@ -15,6 +15,14 @@
     row-gap: 46px;
   }
 
+  @include mobile {
+    padding-inline: 10px;
+  }
+
+  @include mobile-s {
+    padding-inline: 2px;
+  }
+
   &__slider {
     --reviewsSliderSlideWidth: 606px;
 
