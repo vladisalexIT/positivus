@@ -19,4 +19,14 @@
         color: var(--color-dark);
     }
 
+    &--accent {
+        color: var(--color-dark);
+        background-color: var(--color-accent);
+
+        @include hover {
+            color: var(--color-accent);
+            background-color: var(--color-dark);
+        }
+    }
+
 }
